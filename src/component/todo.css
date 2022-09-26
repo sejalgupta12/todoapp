@@ -1,0 +1,118 @@
+.main {
+    min-height: 100vh;
+    background: #060822;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .todo {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  
+   .addTodo {
+    min-width: 17rem;
+    height: 1.2rem;
+    padding: 0.5rem 0.5rem;
+    font-size: 1.2rem;
+    color: rgb(58, 57, 57);
+    border: 0.1rem solid #ccc;
+    border-radius: 0.4rem;
+  }
+  
+  .addTodo,
+  .addTodo:focus,
+  .addTodo:active,
+  .addTodo:active:focus {
+    border: none;
+    padding: 0.5rem 0.5rem;
+    outline: none;
+  }
+
+  .todo-btn {
+    width: 3rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .fa {
+    margin-left: -2rem;
+    cursor: pointer;
+    color: #666;
+    font-size: 1.2rem;
+  }
+  .fa:hover {
+    color: rgb(107, 224, 160);
+  }
+
+  .showItems {
+    margin-top: 4rem;
+    position: absolute;
+    min-width: 40vh;
+    overflow-y: scroll;
+    height: 30vh;
+  }
+
+  .buttons {
+    position: absolute;
+    bottom:0;
+    margin-bottom: 10px;
+  }
+  
+  .eachItem {
+    background: #fff;
+    margin-bottom: 0.7rem;
+    word-break: break-word;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .btn {
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    float: left;
+    margin-right: 10px;
+    border-radius: 1rem;
+    border-width: 0;
+    box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+    color: #008000;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    height: 35px;
+    padding: 0 25px;
+    transition: all 200ms;
+  }
+
+  .btn:hover {
+    text-decoration: none;
+    background-color: #4CAF50; /* Green */
+    color: black;
+  }
+
+  .pendinglist, .compeletedList {
+    display: inline;
+    min-height: 50vh;
+    min-width: 40vh;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    float: left;
+    margin-right: 3rem;
+    position: relative;
+  }
+
+  .left-section{
+    float: left;
+    padding-left: 10px;
+  }
+
+  .text{
+    color: rgb(82, 78, 78);
+    margin-left: 10px;
+  }
